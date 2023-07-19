@@ -245,8 +245,8 @@
 10	Metropolitan	B-LOC	-	blvns
 11	Club	I-LOC	-	blvns
 12	on	O	-	-
-13	H	O	-	-
-14	Street	O	-	-
+13	H	B-LOC	-	blvns
+14	Street	I-LOC	-	blvns
 15	a	O	-	-
 16	few	O	-	-
 17	blocks	O	-	-
@@ -326,9 +326,9 @@
 10	build	O	-	-
 11	the	O	-	-
 12	NoMa	B-LOC	-	blvns
-13	infill	I-LOC	-	blvns
-14	Metro	I-LOC	-	blvns
-15	station	I-LOC	-	blvns
+13	infill	O	-	-
+14	Metro	O	-	-
+15	station	O	-	-
 16	,	O	-	-
 17	which	O	-	-
 18	opened	O	-	-
@@ -382,8 +382,8 @@
 13	to	O	-	-
 14	cross	O	-	-
 15	the	O	-	-
-16	Potomac	O	-	-
-17	River	O	-	-
+16	Potomac	B-LOC	-	blvns
+17	River	I-LOC	-	blvns
 18	on	O	-	-
 19	the	O	-	-
 20	gondola	O	-	-
@@ -643,7 +643,7 @@
 4	up	O	-	-
 5	with	O	-	-
 6	a	O	-	-
-7	US	O	-	-
+7	US	B-LOC	-	blvns
 8	speakers	O	-	-
 9	agency	O	-	-
 10	after	O	-	-
@@ -693,14 +693,14 @@
 8	to	O	-	-
 9	secure	O	-	-
 10	the	O	-	-
-11	Clyde	O	-	-
+11	Clyde	B-LOC	-	blvns
 12	shipbuilding	O	-	-
 13	industry	O	-	-
 14	was	O	-	-
 15	made	O	-	-
 16	before	O	-	-
 17	the	O	-	-
-18	Scottish	B-OTH	-	blvns
+18	Scottish	O	-	-
 19	independence	O	-	-
 20	referendum	O	-	-
 21	in	O	-	-
@@ -767,8 +767,8 @@
 # sent_id = n01016-0001
 # text = The South Korean company initially thought a battery fault was to blame, and switched its own component for a third-party power cell.
 1	The	O	-	-
-2	South	B-OTH	-	blvns
-3	Korean	I-OTH	-	blvns
+2	South	O	-	-
+3	Korean	O	-	-
 4	company	O	-	-
 5	initially	O	-	-
 6	thought	O	-	-
@@ -825,7 +825,7 @@
 10	,	O	-	-
 11	like	O	-	-
 12	the	O	-	-
-13	Google	B-OTH	-	blvns
+13	Google	O	-	-
 14	Assistant	O	-	-
 15	or	O	-	-
 16	Apple	B-ORG	-	blvns
@@ -1214,7 +1214,7 @@
 16	to	O	-	-
 17	meet	O	-	-
 18	the	O	-	-
-19	Paris	B-ORG	-	blvns
+19	Paris	B-LOC	-	blvns
 20	targets	O	-	-
 21	.	O	-	-
 
@@ -1230,8 +1230,8 @@
 8	direction	O	-	-
 9	:	O	-	-
 10	the	O	-	-
-11	Paris	B-ORG	-	blvns
-12	Agreement	I-ORG	-	blvns
+11	Paris	B-LOC	-	blvns
+12	Agreement	O	-	-
 13	will	O	-	-
 14	slow	O	-	-
 15	climate	O	-	-
@@ -1241,8 +1241,8 @@
 19	will	O	-	-
 20	the	O	-	-
 21	recent	O	-	-
-22	Kigali	B-ORG	-	blvns
-23	Amendment	I-ORG	-	blvns
+22	Kigali	B-LOC	-	blvns
+23	Amendment	O	-	-
 24	to	O	-	-
 25	reduce	O	-	-
 26	HFCs	O	-	-
@@ -1285,8 +1285,8 @@
 5	they	O	-	-
 6	got	O	-	-
 7	the	O	-	-
-8	Paris	B-ORG	-	blvns
-9	Agreement	I-ORG	-	blvns
+8	Paris	B-LOC	-	blvns
+9	Agreement	O	-	-
 10	but	O	-	-
 11	their	O	-	-
 12	contributions	O	-	-
@@ -1312,7 +1312,7 @@
 4	just	O	-	-
 5	off	O	-	-
 6	the	O	-	-
-7	Mexican	B-LOC	-	blvns
+7	Mexican	O	-	-
 8	coast	O	-	-
 9	from	O	-	-
 10	April	O	-	-
@@ -1595,7 +1595,7 @@
 5	,	O	-	-
 6	from	O	-	-
 7	the	O	-	-
-8	Democratic	B-ORG	-	blvns
+8	Democratic	O	-	-
 9	side	O	-	-
 10	this	O	-	-
 11	year	O	-	-
@@ -1752,7 +1752,7 @@
 4	Seagal	B-PER	-	blvns
 5	was	O	-	-
 6	given	O	-	-
-7	Serbian	B-OTH	-	blvns
+7	Serbian	O	-	-
 8	nationality	O	-	-
 9	after	O	-	-
 10	offering	O	-	-
@@ -1917,7 +1917,7 @@
 2	there	O	-	-
 3	are	O	-	-
 4	many	O	-	-
-5	MLAs	B-ORG	-	blvns
+5	MLAs	O	-	-
 6	with	O	-	-
 7	deeply	O	-	-
 8	-	O	-	-
@@ -2078,7 +2078,7 @@
 26	to	O	-	-
 27	ensure	O	-	-
 28	that	O	-	-
-29	Canadian	B-OTH	-	blvns
+29	Canadian	O	-	-
 30	businesses	O	-	-
 31	and	O	-	-
 32	interests	O	-	-
@@ -2102,8 +2102,8 @@
 9	president	O	-	-
 10	of	O	-	-
 11	the	O	-	-
-12	United	O	-	-
-13	States	O	-	-
+12	United	B-LOC	-	blvns
+13	States	I-LOC	-	blvns
 14	,	O	-	-
 15	whoever	O	-	-
 16	he	O	-	-
@@ -2425,8 +2425,8 @@
 15	provision	O	-	-
 16	in	O	-	-
 17	the	O	-	-
-18	Paris	B-ORG	-	blvns
-19	agreement	I-ORG	-	blvns
+18	Paris	B-LOC	-	blvns
+19	agreement	O	-	-
 20	to	O	-	-
 21	pull	O	-	-
 22	out	O	-	-
@@ -2506,7 +2506,7 @@
 14	trail	O	-	-
 15	since	O	-	-
 16	the	O	-	-
-17	Republican	B-ORG	-	blvns
+17	Republican	O	-	-
 18	convention	O	-	-
 19	in	O	-	-
 20	July	O	-	-
@@ -2945,7 +2945,7 @@
 5	,	O	-	-
 6	"	O	-	-
 7	reported	O	-	-
-8	SaskTel	B-OTH	-	blvns
+8	SaskTel	O	-	-
 9	unlimited	O	-	-
 10	data	O	-	-
 11	customer	O	-	-
@@ -2962,7 +2962,7 @@
 3	pointed	O	-	-
 4	out	O	-	-
 5	that	O	-	-
-6	Rogers	B-PER	-	blvns
+6	Rogers	B-ORG	-	blvns
 7	recently	O	-	-
 8	introduced	O	-	-
 9	a	O	-	-
@@ -3638,7 +3638,7 @@
 
 # sent_id = n01059-0002
 # text = Republican economists caution against taking this data as proof that their party is lousy at economic policy.
-1	Republican	B-ORG	-	blvns
+1	Republican	O	-	-
 2	economists	O	-	-
 3	caution	O	-	-
 4	against	O	-	-
@@ -4031,7 +4031,7 @@
 21	pharaoh	O	-	-
 22	when	O	-	-
 23	the	O	-	-
-24	Nile	O	-	-
+24	Nile	B-LOC	-	blvns
 25	does	O	-	-
 26	not	O	-	-
 27	flood	O	-	-
@@ -4256,7 +4256,7 @@
 # text = The Liberal Democrats, who represented the affluent suburb until 2010, are hoping to snatch it back with their candidate Sarah Olney.
 1	The	O	-	-
 2	Liberal	O	-	-
-3	Democrats	B-ORG	-	blvns
+3	Democrats	O	-	-
 4	,	O	-	-
 5	who	O	-	-
 6	represented	O	-	-
@@ -4375,7 +4375,7 @@
 10	south	O	-	-
 11	-	O	-	-
 12	east	O	-	-
-13	Delhi	O	-	-
+13	Delhi	B-LOC	-	blvns
 14	,	O	-	-
 15	will	O	-	-
 16	stop	O	-	-
@@ -4443,7 +4443,7 @@
 16	:	O	-	-
 17	“	O	-	-
 18	More	O	-	-
-19	African	B-OTH	-	blvns
+19	African	O	-	-
 20	than	O	-	-
 21	you	O	-	-
 22	,	O	-	-
@@ -4938,7 +4938,7 @@
 7	insufficient	O	-	-
 8	protection	O	-	-
 9	to	O	-	-
-10	American	B-OTH	-	blvns
+10	American	O	-	-
 11	workers	O	-	-
 12	whose	O	-	-
 13	jobs	O	-	-
@@ -4973,7 +4973,7 @@
 5	could	O	-	-
 6	open	O	-	-
 7	four	O	-	-
-8	Tesco	B-ORG	-	blvns
+8	Tesco	O	-	-
 9	accounts	O	-	-
 10	and	O	-	-
 11	earn	O	-	-
@@ -4991,9 +4991,9 @@
 # text = Meanwhile, Bank of Scotland customers earn 3% on balances of £3,000-£5,000 when they add the free Vantage option to their account.
 1	Meanwhile	O	-	-
 2	,	O	-	-
-3	Bank	B-ORG	-	blvns
-4	of	I-ORG	-	blvns
-5	Scotland	I-ORG	-	blvns
+3	Bank	O	-	-
+4	of	O	-	-
+5	Scotland	O	-	-
 6	customers	O	-	-
 7	earn	O	-	-
 8	3	O	-	-
@@ -5879,7 +5879,7 @@
 8	up	O	-	-
 9	near	O	-	-
 10	the	O	-	-
-11	Canadian	B-OTH	-	blvns
+11	Canadian	O	-	-
 12	border	O	-	-
 13	.	O	-	-
 
@@ -6048,7 +6048,7 @@
 7	is	O	-	-
 8	led	O	-	-
 9	by	O	-	-
-10	pro-Beijing	B-ORG	-	blvns
+10	pro-Beijing	O	-	-
 11	lawmakers	O	-	-
 12	,	O	-	-
 13	have	O	-	-
@@ -6088,8 +6088,8 @@
 
 # sent_id = n01101-0005
 # text = Hong Kong, meanwhile, appears to be bracing for a wave of protests.
-1	Hong	B-ORG	-	blvns
-2	Kong	I-ORG	-	blvns
+1	Hong	B-LOC	-	blvns
+2	Kong	I-LOC	-	blvns
 3	,	O	-	-
 4	meanwhile	O	-	-
 5	,	O	-	-
@@ -6112,8 +6112,8 @@
 3	the	O	-	-
 4	BBC	B-ORG	-	blvns
 5	’s	O	-	-
-6	Andrew	B-PER	-	blvns
-7	Marr	I-PER	-	blvns
+6	Andrew	O	-	-
+7	Marr	O	-	-
 8	Show	O	-	-
 9	:	O	-	-
 10	“	O	-	-
@@ -6507,8 +6507,8 @@
 7	£	O	-	-
 8	760	O	-	-
 9	and	O	-	-
-10	Avro	B-ORG	-	blvns
-11	Energy	I-ORG	-	blvns
+10	Avro	O	-	-
+11	Energy	O	-	-
 12	customers	O	-	-
 13	would	O	-	-
 14	pay	O	-	-
@@ -7026,7 +7026,7 @@
 5	so	O	-	-
 6	drastically	O	-	-
 7	that	O	-	-
-8	Hollywood	O	-	-
+8	Hollywood	B-ORG	-	blvns
 9	had	O	-	-
 10	alienated	O	-	-
 11	the	O	-	-
@@ -7334,9 +7334,9 @@
 1	London	B-LOC	-	blvns
 2	’s	O	-	-
 3	landmark	O	-	-
-4	South	O	-	-
-5	Bank	O	-	-
-6	Tower	O	-	-
+4	South	B-LOC	-	blvns
+5	Bank	I-LOC	-	blvns
+6	Tower	I-LOC	-	blvns
 7	commissioned	O	-	-
 8	interior	O	-	-
 9	designer	O	-	-
@@ -7655,7 +7655,7 @@
 2	than	O	-	-
 3	5.7	O	-	-
 4	million	O	-	-
-5	Floridians	B-OTH	-	blvns
+5	Floridians	O	-	-
 6	have	O	-	-
 7	already	O	-	-
 8	hit	O	-	-
@@ -7758,7 +7758,7 @@
 # sent_id = n01133-0001
 # text = The Dutch students have yet to decide if they will be commercializing their electric motorcycle.
 1	The	O	-	-
-2	Dutch	B-OTH	-	blvns
+2	Dutch	O	-	-
 3	students	O	-	-
 4	have	O	-	-
 5	yet	O	-	-
@@ -7803,7 +7803,7 @@
 # newdoc id = n01134
 # sent_id = n01134-0001
 # text = U.S. stock futures are surging by more than 1%, alongside European markets.
-1	U.S.	B-OTH	-	blvns
+1	U.S.	O	-	-
 2	stock	O	-	-
 3	futures	O	-	-
 4	are	O	-	-
@@ -7815,7 +7815,7 @@
 10	%	O	-	-
 11	,	O	-	-
 12	alongside	O	-	-
-13	European	B-OTH	-	blvns
+13	European	O	-	-
 14	markets	O	-	-
 15	.	O	-	-
 
@@ -7830,9 +7830,9 @@
 7	bonds	O	-	-
 8	,	O	-	-
 9	with	O	-	-
-10	U.S.	B-ORG	-	blvns
+10	U.S.	O	-	-
 11	and	O	-	-
-12	Australian	B-ORG	-	blvns
+12	Australian	O	-	-
 13	bonds	O	-	-
 14	feeling	O	-	-
 15	the	O	-	-
@@ -8170,8 +8170,8 @@
 # sent_id = n01140-0001
 # text = In the Netherlands, authorities have taken a lower-tech approach to tracking drones.
 1	In	O	-	-
-2	the	O	-	-
-3	Netherlands	B-LOC	-	blvns
+2	the	B-LOC	-	blvns
+3	Netherlands	I-LOC	-	blvns
 4	,	O	-	-
 5	authorities	O	-	-
 6	have	O	-	-
@@ -8204,7 +8204,7 @@
 13	on	O	-	-
 14	industry	O	-	-
 15	darling	O	-	-
-16	Slack	O	-	-
+16	Slack	B-ORG	-	blvns
 17	.	O	-	-
 
 # sent_id = n01141-0002
@@ -8338,7 +8338,7 @@
 21	,	O	-	-
 22	"	O	-	-
 23	the	O	-	-
-24	American	B-OTH	-	blvns
+24	American	O	-	-
 25	said	O	-	-
 26	.	O	-	-
 
@@ -8351,8 +8351,8 @@
 4	their	O	-	-
 5	way	O	-	-
 6	into	O	-	-
-7	North	B-OTH	-	blvns
-8	Korean	I-OTH	-	blvns
+7	North	O	-	-
+8	Korean	O	-	-
 9	golf	O	-	-
 10	tournament	O	-	-
 11	,	O	-	-
@@ -8367,7 +8367,7 @@
 # sent_id = n01143-0002
 # text = Two Australians, who by their own admission are terrible golfers, bluffed their way into a premier golf tournament in North Korea.
 1	Two	O	-	-
-2	Australians	B-OTH	-	blvns
+2	Australians	O	-	-
 3	,	O	-	-
 4	who	O	-	-
 5	by	O	-	-
@@ -8590,7 +8590,7 @@
 20	new	O	-	-
 21	tradition	O	-	-
 22	for	O	-	-
-23	Mexicans	B-OTH	-	blvns
+23	Mexicans	O	-	-
 24	.	O	-	-
 
 # newdoc id = n01146
@@ -8686,7 +8686,7 @@
 13	like	O	-	-
 14	the	O	-	-
 15	visionary	O	-	-
-16	MahaNakhon	O	-	-
+16	MahaNakhon	B-LOC	-	blvns
 17	,	O	-	-
 18	Bangkok	B-LOC	-	blvns
 19	's	O	-	-
@@ -8900,10 +8900,10 @@
 11	financial	O	-	-
 12	oversight	O	-	-
 13	,	O	-	-
-14	Mohammed	O	-	-
-15	al	O	-	-
-16	-	O	-	-
-17	Jadaan	O	-	-
+14	Mohammed	B-PER	-	blvns
+15	al	I-PER	-	blvns
+16	-	I-PER	-	blvns
+17	Jadaan	I-PER	-	blvns
 18	.	O	-	-
 
 # newdoc id = n02006
@@ -9072,7 +9072,7 @@
 # sent_id = n02024-0001
 # text = A Swedish study has shown that animals seldom, if at all, land after the 2 month breeding period.
 1	A	O	-	-
-2	Swedish	B-OTH	-	blvns
+2	Swedish	O	-	-
 3	study	O	-	-
 4	has	O	-	-
 5	shown	O	-	-
@@ -9220,13 +9220,13 @@
 # text = If a Turkish employee quits, then the Turkish work councils come.
 1	If	O	-	-
 2	a	O	-	-
-3	Turkish	B-OTH	-	blvns
+3	Turkish	O	-	-
 4	employee	O	-	-
 5	quits	O	-	-
 6	,	O	-	-
 7	then	O	-	-
 8	the	O	-	-
-9	Turkish	B-OTH	-	blvns
+9	Turkish	O	-	-
 10	work	O	-	-
 11	councils	O	-	-
 12	come	O	-	-
@@ -9651,7 +9651,7 @@
 # sent_id = n02066-0001
 # text = The Canadian investigator of the plane crash Larry Vance told SPIEGEL that he is convinced that one of the pilots had intended to land the machine on the ocean surface - so that it would sink.
 1	The	O	-	-
-2	Canadian	B-OTH	-	blvns
+2	Canadian	O	-	-
 3	investigator	O	-	-
 4	of	O	-	-
 5	the	O	-	-
@@ -9691,7 +9691,7 @@
 # sent_id = n02066-0002
 # text = The Australian experts drew new conclusions from the investigation of a landing flap from Boeing that had washed up in Tanzania in East Africa.
 1	The	O	-	-
-2	Australian	B-OTH	-	blvns
+2	Australian	O	-	-
 3	experts	O	-	-
 4	drew	O	-	-
 5	new	O	-	-
@@ -9832,7 +9832,7 @@
 # text = Dündar warned Europe about having too much understanding for Erdogan's course.
 1	Dündar	B-PER	-	blvns
 2	warned	O	-	-
-3	Europe	B-ORG	-	blvns
+3	Europe	B-LOC	-	blvns
 4	about	O	-	-
 5	having	O	-	-
 6	too	O	-	-
@@ -9934,8 +9934,8 @@
 4	by	O	-	-
 5	Lucas	B-PER	-	blvns
 6	Cranach	I-PER	-	blvns
-7	the	O	-	-
-8	Elder	O	-	-
+7	the	I-PER	-	blvns
+8	Elder	I-PER	-	blvns
 9	on	O	-	-
 10	display	O	-	-
 11	are	O	-	-
@@ -10099,7 +10099,7 @@
 # text = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
 1	If	O	-	-
 2	his	O	-	-
-3	Democrat	B-ORG	-	blvns
+3	Democrat	O	-	-
 4	opponent	O	-	-
 5	were	O	-	-
 6	to	O	-	-
@@ -10309,7 +10309,7 @@
 3	is	O	-	-
 4	overseeing	O	-	-
 5	the	O	-	-
-6	Republican	B-ORG	-	blvns
+6	Republican	O	-	-
 7	primaries	O	-	-
 8	,	O	-	-
 9	in	O	-	-
@@ -10582,7 +10582,7 @@
 8	,	O	-	-
 9	"	O	-	-
 10	the	O	-	-
-11	French	B-ORG	-	blvns
+11	French	O	-	-
 12	contingent	O	-	-
 13	revealed	O	-	-
 14	.	O	-	-
@@ -11205,7 +11205,7 @@
 18	directors	O	-	-
 19	of	O	-	-
 20	the	O	-	-
-21	Chinese	B-OTH	-	blvns
+21	Chinese	O	-	-
 22	company	O	-	-
 23	.	O	-	-
 
@@ -11243,7 +11243,7 @@
 3	become	O	-	-
 4	the	O	-	-
 5	fourth	O	-	-
-6	American	B-OTH	-	blvns
+6	American	O	-	-
 7	company	O	-	-
 8	with	O	-	-
 9	the	O	-	-
@@ -11278,8 +11278,8 @@
 19	addition	O	-	-
 20	to	O	-	-
 21	the	O	-	-
-22	Mountain	B-LOC	-	blvns
-23	View	I-LOC	-	blvns
+22	Mountain	O	-	-
+23	View	O	-	-
 24	Summit	O	-	-
 25	.	O	-	-
 
@@ -11515,7 +11515,7 @@
 # text = Barón de Claret, the only one in Government with a noble title.
 1	Barón	O	-	-
 2	de	O	-	-
-3	Claret	B-LOC	-	blvns
+3	Claret	O	-	-
 4	,	O	-	-
 5	the	O	-	-
 6	only	O	-	-
@@ -11766,8 +11766,8 @@
 9	worried	O	-	-
 10	about	O	-	-
 11	the	O	-	-
-12	Latin	B-OTH	-	blvns
-13	American	I-OTH	-	blvns
+12	Latin	O	-	-
+13	American	O	-	-
 14	vote	O	-	-
 15	at	O	-	-
 16	a	O	-	-
@@ -11785,8 +11785,8 @@
 6	this	O	-	-
 7	time	O	-	-
 8	the	O	-	-
-9	Latin	B-OTH	-	blvns
-10	Americans	I-OTH	-	blvns
+9	Latin	O	-	-
+10	Americans	O	-	-
 11	will	O	-	-
 12	come	O	-	-
 13	out	O	-	-
@@ -12043,7 +12043,7 @@
 # sent_id = w01004-0001
 # text = The Greek city-state of Athens in the 5th century BC, which was dependent on grain imports from Scythia, maintained critical alliances with cities which controlled the straits, such as the Megarian colony Byzantium.
 1	The	O	-	-
-2	Greek	B-OTH	-	blvns
+2	Greek	O	-	-
 3	city	O	-	-
 4	-	O	-	-
 5	state	O	-	-
@@ -12077,9 +12077,9 @@
 33	such	O	-	-
 34	as	O	-	-
 35	the	O	-	-
-36	Megarian	B-OTH	-	blvns
+36	Megarian	O	-	-
 37	colony	O	-	-
-38	Byzantium	O	-	-
+38	Byzantium	B-LOC	-	blvns
 39	.	O	-	-
 
 # newdoc id = w01005
@@ -12105,10 +12105,10 @@
 # sent_id = w01005-0002
 # text = The Achaemenid troops conquered Thrace, the coastal Greek cities, and the Paeonians.
 1	The	O	-	-
-2	Achaemenid	B-ORG	-	blvns
+2	Achaemenid	O	-	-
 3	troops	O	-	-
 4	conquered	O	-	-
-5	Thrace	O	-	-
+5	Thrace	B-LOC	-	blvns
 6	,	O	-	-
 7	the	O	-	-
 8	coastal	O	-	-
@@ -12132,13 +12132,13 @@
 8	BC	O	-	-
 9	,	O	-	-
 10	the	O	-	-
-11	Macedonian	B-ORG	-	blvns
+11	Macedonian	O	-	-
 12	king	O	-	-
 13	Amyntas	B-PER	-	blvns
 14	I	I-PER	-	blvns
 15	accepted	O	-	-
 16	the	O	-	-
-17	Achaemenid	B-ORG	-	blvns
+17	Achaemenid	O	-	-
 18	domination	O	-	-
 19	and	O	-	-
 20	surrendered	O	-	-
@@ -12158,7 +12158,7 @@
 # text = The multi-ethnic Achaemenid army possessed many soldiers from the Balkans.
 1	The	O	-	-
 2	multi-ethnic	O	-	-
-3	Achaemenid	B-ORG	-	blvns
+3	Achaemenid	O	-	-
 4	army	O	-	-
 5	possessed	O	-	-
 6	many	O	-	-
@@ -12175,9 +12175,9 @@
 3	many	O	-	-
 4	of	O	-	-
 5	the	O	-	-
-6	Macedonian	B-OTH	-	blvns
+6	Macedonian	O	-	-
 7	and	O	-	-
-8	Persian	B-OTH	-	blvns
+8	Persian	O	-	-
 9	elite	O	-	-
 10	intermarried	O	-	-
 11	.	O	-	-
@@ -12325,14 +12325,14 @@
 14	and	O	-	-
 15	England	B-LOC	-	blvns
 16	and	O	-	-
-17	Wales	O	-	-
+17	Wales	B-LOC	-	blvns
 18	.	O	-	-
 
 # newdoc id = w01009
 # sent_id = w01009-0001
 # text = The Bergeron classification is the most widely accepted form of air mass classification.
 1	The	O	-	-
-2	Bergeron	B-PER	-	blvns
+2	Bergeron	O	-	-
 3	classification	O	-	-
 4	is	O	-	-
 5	the	O	-	-
@@ -12406,10 +12406,10 @@
 1	A	O	-	-
 2	variety	O	-	-
 3	of	O	-	-
-4	Germanic	B-OTH	-	blvns
+4	Germanic	O	-	-
 5	and	O	-	-
 6	major	O	-	-
-7	Slavic	B-OTH	-	blvns
+7	Slavic	O	-	-
 8	tribes	O	-	-
 9	crossed	O	-	-
 10	through	O	-	-
@@ -12419,7 +12419,7 @@
 14	Migration	O	-	-
 15	Period	O	-	-
 16	before	O	-	-
-17	Slavs	B-OTH	-	blvns
+17	Slavs	O	-	-
 18	established	O	-	-
 19	themselves	O	-	-
 20	in	O	-	-
@@ -12440,8 +12440,8 @@
 7	century	O	-	-
 8	,	O	-	-
 9	the	O	-	-
-10	Moravian	B-ORG	-	blvns
-11	Principality	I-ORG	-	blvns
+10	Moravian	B-LOC	-	blvns
+11	Principality	I-LOC	-	blvns
 12	came	O	-	-
 13	into	O	-	-
 14	being	O	-	-
@@ -12478,8 +12478,8 @@
 7	the	O	-	-
 8	state	O	-	-
 9	of	O	-	-
-10	Great	B-ORG	-	blvns
-11	Moravia	I-ORG	-	blvns
+10	Great	B-LOC	-	blvns
+11	Moravia	I-LOC	-	blvns
 12	with	O	-	-
 13	the	O	-	-
 14	conquest	O	-	-
@@ -12515,8 +12515,8 @@
 # sent_id = w01010-0005
 # text = Louis the German invaded Moravia and replaced Mojmír I with his nephew Rastiz who became St. Rastislav.
 1	Louis	B-PER	-	blvns
-2	the	O	-	-
-3	German	O	-	-
+2	the	I-PER	-	blvns
+3	German	I-PER	-	blvns
 4	invaded	O	-	-
 5	Moravia	B-LOC	-	blvns
 6	and	O	-	-
@@ -12580,12 +12580,12 @@
 22	and	O	-	-
 23	borrowing	O	-	-
 24	from	O	-	-
-25	Danish	B-OTH	-	blvns
+25	Danish	O	-	-
 26	has	O	-	-
 27	occurred	O	-	-
 28	in	O	-	-
 29	the	O	-	-
-30	Icelandic	B-OTH	-	blvns
+30	Icelandic	O	-	-
 31	language	O	-	-
 32	.	O	-	-
 
@@ -12597,7 +12597,7 @@
 4	languages	O	-	-
 5	derived	O	-	-
 6	from	O	-	-
-7	Finnish	B-OTH	-	blvns
+7	Finnish	O	-	-
 8	,	O	-	-
 9	having	O	-	-
 10	evolved	O	-	-
@@ -12605,11 +12605,11 @@
 12	,	O	-	-
 13	known	O	-	-
 14	as	O	-	-
-15	Meänkieli	B-OTH	-	blvns
+15	Meänkieli	O	-	-
 16	in	O	-	-
 17	Sweden	B-LOC	-	blvns
 18	and	O	-	-
-19	Kven	B-OTH	-	blvns
+19	Kven	O	-	-
 20	in	O	-	-
 21	Norway	B-LOC	-	blvns
 22	.	O	-	-
@@ -12623,10 +12623,10 @@
 5	feature	O	-	-
 6	in	O	-	-
 7	both	O	-	-
-8	Finnish	B-OTH	-	blvns
+8	Finnish	O	-	-
 9	and	O	-	-
 10	northern	O	-	-
-11	Sami	B-OTH	-	blvns
+11	Sami	O	-	-
 12	dialects	O	-	-
 13	,	O	-	-
 14	but	O	-	-
@@ -12636,7 +12636,7 @@
 18	present	O	-	-
 19	in	O	-	-
 20	south	O	-	-
-21	Sami	B-OTH	-	blvns
+21	Sami	O	-	-
 22	,	O	-	-
 23	which	O	-	-
 24	is	O	-	-
@@ -12768,11 +12768,11 @@
 18	the	O	-	-
 19	site	O	-	-
 20	of	O	-	-
-21	Mount	O	-	-
-22	Kilimanjaro	O	-	-
+21	Mount	B-LOC	-	blvns
+22	Kilimanjaro	I-LOC	-	blvns
 23	and	O	-	-
-24	Mount	O	-	-
-25	Kenya	O	-	-
+24	Mount	B-LOC	-	blvns
+25	Kenya	I-LOC	-	blvns
 26	,	O	-	-
 27	the	O	-	-
 28	two	O	-	-
@@ -12796,7 +12796,7 @@
 10	,	O	-	-
 11	but	O	-	-
 12	most	O	-	-
-13	Bantu	B-OTH	-	blvns
+13	Bantu	O	-	-
 14	never	O	-	-
 15	had	O	-	-
 16	contact	O	-	-
@@ -13052,19 +13052,19 @@
 3	the	O	-	-
 4	most	O	-	-
 5	notable	O	-	-
-6	Mediterranean	O	-	-
+6	Mediterranean	B-LOC	-	blvns
 7	civilisations	O	-	-
 8	in	O	-	-
 9	classical	O	-	-
 10	antiquity	O	-	-
 11	were	O	-	-
 12	the	O	-	-
-13	Greek	B-OTH	-	blvns
+13	Greek	O	-	-
 14	city	O	-	-
 15	states	O	-	-
 16	and	O	-	-
 17	the	O	-	-
-18	Phoenicians	B-OTH	-	blvns
+18	Phoenicians	O	-	-
 19	,	O	-	-
 20	both	O	-	-
 21	of	O	-	-
@@ -13090,11 +13090,11 @@
 8	Empire	I-ORG	-	blvns
 9	,	O	-	-
 10	the	O	-	-
-11	Romans	B-OTH	-	blvns
+11	Romans	O	-	-
 12	referred	O	-	-
 13	to	O	-	-
 14	the	O	-	-
-15	Mediterranean	O	-	-
+15	Mediterranean	B-LOC	-	blvns
 16	as	O	-	-
 17	Mare	O	-	-
 18	Nostrum	O	-	-
@@ -13110,7 +13110,7 @@
 # sent_id = w01022-0001
 # text = The Blindleia is a skerry-protected waterway that starts near Kristiansand in southern Norway, and continues past Lillesand.
 1	The	O	-	-
-2	Blindleia	O	-	-
+2	Blindleia	B-LOC	-	blvns
 3	is	O	-	-
 4	a	O	-	-
 5	skerry	O	-	-
@@ -13134,7 +13134,7 @@
 # sent_id = w01022-0002
 # text = In Danish, the word may even apply to shallow lagoons.
 1	In	O	-	-
-2	Danish	B-OTH	-	blvns
+2	Danish	O	-	-
 3	,	O	-	-
 4	the	O	-	-
 5	word	O	-	-
@@ -13244,7 +13244,7 @@
 30	by	O	-	-
 31	the	O	-	-
 32	advancing	O	-	-
-33	German	B-ORG	-	blvns
+33	German	O	-	-
 34	army	O	-	-
 35	.	O	-	-
 
@@ -13258,9 +13258,9 @@
 6	surprise	O	-	-
 7	to	O	-	-
 8	the	O	-	-
-9	Austro	B-ORG	-	blvns
-10	-	I-ORG	-	blvns
-11	Prussian	I-ORG	-	blvns
+9	Austro	O	-	-
+10	-	O	-	-
+11	Prussian	O	-	-
 12	army	O	-	-
 13	,	O	-	-
 14	and	O	-	-
@@ -13268,7 +13268,7 @@
 16	all	O	-	-
 17	of	O	-	-
 18	the	O	-	-
-19	Danish	B-ORG	-	blvns
+19	Danish	O	-	-
 20	army	O	-	-
 21	succeeded	O	-	-
 22	in	O	-	-
@@ -13328,7 +13328,7 @@
 8	great	O	-	-
 9	shock	O	-	-
 10	to	O	-	-
-11	Danish	B-OTH	-	blvns
+11	Danish	O	-	-
 12	public	O	-	-
 13	opinion	O	-	-
 14	which	O	-	-
@@ -13359,7 +13359,7 @@
 3	has	O	-	-
 4	remained	O	-	-
 5	in	O	-	-
-6	German	B-ORG	-	blvns
+6	German	O	-	-
 7	possession	O	-	-
 8	ever	O	-	-
 9	since	O	-	-
@@ -13374,8 +13374,8 @@
 4	goods	O	-	-
 5	transported	O	-	-
 6	on	O	-	-
-7	the	O	-	-
-8	Danube	O	-	-
+7	the	B-LOC	-	blvns
+8	Danube	I-LOC	-	blvns
 9	increased	O	-	-
 10	to	O	-	-
 11	about	O	-	-
@@ -13414,7 +13414,7 @@
 24	bank	O	-	-
 25	of	O	-	-
 26	the	O	-	-
-27	Chilia	O	-	-
+27	Chilia	B-LOC	-	blvns
 28	arm	O	-	-
 29	,	O	-	-
 30	is	O	-	-
@@ -13500,8 +13500,8 @@
 4	foremost	O	-	-
 5	was	O	-	-
 6	the	O	-	-
-7	Ohio	O	-	-
-8	River	O	-	-
+7	Ohio	B-LOC	-	blvns
+8	River	I-LOC	-	blvns
 9	,	O	-	-
 10	which	O	-	-
 11	flowed	O	-	-
@@ -13626,8 +13626,8 @@
 # newdoc id = w01030
 # sent_id = w01030-0001
 # text = The Alps provide lowland Europe with drinking water, irrigation, and hydroelectric power.
-1	The	O	-	-
-2	Alps	O	-	-
+1	The	B-LOC	-	blvns
+2	Alps	I-LOC	-	blvns
 3	provide	O	-	-
 4	lowland	O	-	-
 5	Europe	B-LOC	-	blvns
@@ -13659,8 +13659,8 @@
 13	of	O	-	-
 14	Europe	B-LOC	-	blvns
 15	,	O	-	-
-16	the	O	-	-
-17	Alps	O	-	-
+16	the	B-LOC	-	blvns
+17	Alps	I-LOC	-	blvns
 18	provide	O	-	-
 19	up	O	-	-
 20	to	O	-	-
@@ -13688,7 +13688,7 @@
 1	Cities	O	-	-
 2	such	O	-	-
 3	as	O	-	-
-4	Milan	O	-	-
+4	Milan	B-LOC	-	blvns
 5	depend	O	-	-
 6	on	O	-	-
 7	80	O	-	-
@@ -13736,20 +13736,20 @@
 7	,	O	-	-
 8	such	O	-	-
 9	as	O	-	-
-10	the	O	-	-
-11	Rhine	O	-	-
+10	the	B-LOC	-	blvns
+11	Rhine	I-LOC	-	blvns
 12	,	O	-	-
-13	the	O	-	-
-14	Rhône	O	-	-
+13	the	B-LOC	-	blvns
+14	Rhône	I-LOC	-	blvns
 15	,	O	-	-
-16	the	O	-	-
-17	Inn	O	-	-
+16	the	B-LOC	-	blvns
+17	Inn	I-LOC	-	blvns
 18	,	O	-	-
-19	the	O	-	-
-20	Ticino	O	-	-
+19	the	B-LOC	-	blvns
+20	Ticino	I-LOC	-	blvns
 21	and	O	-	-
-22	the	O	-	-
-23	Po	O	-	-
+22	the	B-LOC	-	blvns
+23	Po	I-LOC	-	blvns
 24	,	O	-	-
 25	all	O	-	-
 26	of	O	-	-
@@ -13769,20 +13769,20 @@
 40	emptying	O	-	-
 41	into	O	-	-
 42	the	O	-	-
-43	North	O	-	-
-44	Sea	O	-	-
+43	North	B-LOC	-	blvns
+44	Sea	I-LOC	-	blvns
 45	,	O	-	-
 46	the	O	-	-
-47	Mediterranean	O	-	-
-48	Sea	O	-	-
+47	Mediterranean	B-LOC	-	blvns
+48	Sea	I-LOC	-	blvns
 49	,	O	-	-
 50	the	O	-	-
-51	Adriatic	O	-	-
-52	Sea	O	-	-
+51	Adriatic	B-LOC	-	blvns
+52	Sea	I-LOC	-	blvns
 53	and	O	-	-
 54	the	O	-	-
-55	Black	O	-	-
-56	Sea	O	-	-
+55	Black	B-LOC	-	blvns
+56	Sea	I-LOC	-	blvns
 57	.	O	-	-
 
 # newdoc id = w01031
@@ -13911,7 +13911,7 @@
 8	,	O	-	-
 9	when	O	-	-
 10	eastern	O	-	-
-11	Melanesians	B-OTH	-	blvns
+11	Melanesians	O	-	-
 12	travelled	O	-	-
 13	north	O	-	-
 14	.	O	-	-
@@ -14154,7 +14154,7 @@
 16	a	O	-	-
 17	period	O	-	-
 18	of	O	-	-
-19	European	B-OTH	-	blvns
+19	European	O	-	-
 20	exploration	O	-	-
 21	of	O	-	-
 22	the	O	-	-
@@ -14239,7 +14239,7 @@
 11	the	O	-	-
 12	arrival	O	-	-
 13	of	O	-	-
-14	European	B-OTH	-	blvns
+14	European	O	-	-
 15	peoples	O	-	-
 16	to	O	-	-
 17	the	O	-	-
@@ -14260,8 +14260,8 @@
 9	left	O	-	-
 10	by	O	-	-
 11	the	O	-	-
-12	Australian	B-OTH	-	blvns
-13	Aborigines	I-OTH	-	blvns
+12	Australian	O	-	-
+13	Aborigines	O	-	-
 14	of	O	-	-
 15	the	O	-	-
 16	region	O	-	-
@@ -14313,7 +14313,7 @@
 13	Lord	O	-	-
 14	Mayor	O	-	-
 15	of	O	-	-
-16	Brisbane	O	-	-
+16	Brisbane	B-LOC	-	blvns
 17	at	O	-	-
 18	the	O	-	-
 19	time	O	-	-
@@ -14517,8 +14517,8 @@
 3	additional	O	-	-
 4	controls	O	-	-
 5	of	O	-	-
-6	the	O	-	-
-7	Nile	O	-	-
+6	the	B-LOC	-	blvns
+7	Nile	I-LOC	-	blvns
 8	fostered	O	-	-
 9	development	O	-	-
 10	within	O	-	-
@@ -14569,14 +14569,14 @@
 6	derives	O	-	-
 7	from	O	-	-
 8	the	O	-	-
-9	Caribs	B-OTH	-	blvns
+9	Caribs	O	-	-
 10	,	O	-	-
 11	one	O	-	-
 12	of	O	-	-
 13	the	O	-	-
 14	dominant	O	-	-
-15	Native	B-OTH	-	blvns
-16	American	I-OTH	-	blvns
+15	Native	O	-	-
+16	American	O	-	-
 17	groups	O	-	-
 18	in	O	-	-
 19	the	O	-	-
@@ -14585,7 +14585,7 @@
 22	the	O	-	-
 23	time	O	-	-
 24	of	O	-	-
-25	European	B-OTH	-	blvns
+25	European	O	-	-
 26	contact	O	-	-
 27	during	O	-	-
 28	the	O	-	-
@@ -14608,9 +14608,9 @@
 10	1492	O	-	-
 11	,	O	-	-
 12	the	O	-	-
-13	Spanish	B-OTH	-	blvns
+13	Spanish	O	-	-
 14	term	O	-	-
-15	Antillas	B-LOC	-	blvns
+15	Antillas	O	-	-
 16	applied	O	-	-
 17	to	O	-	-
 18	the	O	-	-
@@ -14638,7 +14638,7 @@
 40	"	O	-	-
 41	in	O	-	-
 42	various	O	-	-
-43	European	B-OTH	-	blvns
+43	European	O	-	-
 44	languages	O	-	-
 45	.	O	-	-
 
@@ -14651,7 +14651,7 @@
 5	of	O	-	-
 6	development	O	-	-
 7	,	O	-	-
-8	Spanish	B-ORG	-	blvns
+8	Spanish	O	-	-
 9	dominance	O	-	-
 10	in	O	-	-
 11	the	O	-	-
@@ -14667,10 +14667,10 @@
 3	16th	O	-	-
 4	century	O	-	-
 5	,	O	-	-
-6	Europeans	B-OTH	-	blvns
+6	Europeans	O	-	-
 7	visiting	O	-	-
 8	the	O	-	-
-9	Caribbean	B-LOC	-	blvns
+9	Caribbean	O	-	-
 10	region	O	-	-
 11	identified	O	-	-
 12	the	O	-	-
@@ -14680,8 +14680,8 @@
 16	"	O	-	-
 17	(	O	-	-
 18	the	O	-	-
-19	Pacific	O	-	-
-20	Ocean	O	-	-
+19	Pacific	B-LOC	-	blvns
+20	Ocean	I-LOC	-	blvns
 21	,	O	-	-
 22	to	O	-	-
 23	the	O	-	-
@@ -14702,8 +14702,8 @@
 38	"	O	-	-
 39	(	O	-	-
 40	the	O	-	-
-41	Caribbean	O	-	-
-42	Sea	O	-	-
+41	Caribbean	B-LOC	-	blvns
+42	Sea	I-LOC	-	blvns
 43	,	O	-	-
 44	to	O	-	-
 45	the	O	-	-
@@ -14718,8 +14718,8 @@
 # sent_id = w01045-0005
 # text = The Caribbean Sea had been unknown to the populations of Eurasia until 1492, when Christopher Columbus first sailed into Caribbean waters on a quest to find a sea route to Asia.
 1	The	O	-	-
-2	Caribbean	O	-	-
-3	Sea	O	-	-
+2	Caribbean	B-LOC	-	blvns
+3	Sea	I-LOC	-	blvns
 4	had	O	-	-
 5	been	O	-	-
 6	unknown	O	-	-
@@ -14737,7 +14737,7 @@
 18	first	O	-	-
 19	sailed	O	-	-
 20	into	O	-	-
-21	Caribbean	B-LOC	-	blvns
+21	Caribbean	O	-	-
 22	waters	O	-	-
 23	on	O	-	-
 24	a	O	-	-
@@ -14900,7 +14900,7 @@
 21	swath	O	-	-
 22	of	O	-	-
 23	the	O	-	-
-24	American	B-ORG	-	blvns
+24	American	O	-	-
 25	populace	O	-	-
 26	.	O	-	-
 
@@ -14938,8 +14938,8 @@
 3	1960s	O	-	-
 4	,	O	-	-
 5	the	O	-	-
-6	South	B-OTH	-	blvns
-7	Korean	I-OTH	-	blvns
+6	South	O	-	-
+7	Korean	O	-	-
 8	economy	O	-	-
 9	has	O	-	-
 10	grown	O	-	-
@@ -15132,7 +15132,7 @@
 30	the	O	-	-
 31	contract	O	-	-
 32	of	O	-	-
-33	Mongolian	B-OTH	-	blvns
+33	Mongolian	O	-	-
 34	submission	O	-	-
 35	to	O	-	-
 36	the	O	-	-
@@ -15219,7 +15219,7 @@
 # newdoc id = w01052
 # sent_id = w01052-0001
 # text = Ramesses, logistically unable to sustain a long siege, returned to Egypt.
-1	Ramesses	O	-	-
+1	Ramesses	B-PER	-	blvns
 2	,	O	-	-
 3	logistically	O	-	-
 4	unable	O	-	-
@@ -15237,7 +15237,7 @@
 # sent_id = w01052-0002
 # text = The Egyptian pharaoh thus found himself in northern Amurru, well past Kadesh, in Tunip, where no Egyptian soldier had been seen since the time of Thutmose III almost 120 years earlier.
 1	The	O	-	-
-2	Egyptian	B-OTH	-	blvns
+2	Egyptian	O	-	-
 3	pharaoh	O	-	-
 4	thus	O	-	-
 5	found	O	-	-
@@ -15255,7 +15255,7 @@
 17	,	O	-	-
 18	where	O	-	-
 19	no	O	-	-
-20	Egyptian	B-OTH	-	blvns
+20	Egyptian	O	-	-
 21	soldier	O	-	-
 22	had	O	-	-
 23	been	O	-	-
@@ -15521,7 +15521,7 @@
 14	inspired	O	-	-
 15	by	O	-	-
 16	the	O	-	-
-17	Trojan	B-OTH	-	blvns
+17	Trojan	O	-	-
 18	War	O	-	-
 19	.	O	-	-
 
@@ -15633,8 +15633,8 @@
 18	deposits	O	-	-
 19	in	O	-	-
 20	the	O	-	-
-21	Bian	O	-	-
-22	Canal	O	-	-
+21	Bian	B-LOC	-	blvns
+22	Canal	I-LOC	-	blvns
 23	outside	O	-	-
 24	the	O	-	-
 25	capital	O	-	-
@@ -15697,7 +15697,7 @@
 # sent_id = w01060-0005
 # text = The Khitans had made several aggressive negotiations of pushing their borders south, while manipulating several incompetent Chinese ambassadors who conceded to the Liao Kingdom's demands.
 1	The	O	-	-
-2	Khitans	B-ORG	-	blvns
+2	Khitans	O	-	-
 3	had	O	-	-
 4	made	O	-	-
 5	several	O	-	-
@@ -15713,7 +15713,7 @@
 15	manipulating	O	-	-
 16	several	O	-	-
 17	incompetent	O	-	-
-18	Chinese	B-ORG	-	blvns
+18	Chinese	O	-	-
 19	ambassadors	O	-	-
 20	who	O	-	-
 21	conceded	O	-	-
@@ -15928,7 +15928,7 @@
 14	have	O	-	-
 15	constituted	O	-	-
 16	a	O	-	-
-17	Canaanite	B-OTH	-	blvns
+17	Canaanite	O	-	-
 18	"	O	-	-
 19	high	O	-	-
 20	place	O	-	-
@@ -15946,7 +15946,7 @@
 # sent_id = w01065-0003
 # text = The Canaanite city was destroyed in a fire, presumably in the wake of a campaign by the Egyptian pharaoh Thutmose III.
 1	The	O	-	-
-2	Canaanite	B-OTH	-	blvns
+2	Canaanite	O	-	-
 3	city	O	-	-
 4	was	O	-	-
 5	destroyed	O	-	-
@@ -15963,7 +15963,7 @@
 16	campaign	O	-	-
 17	by	O	-	-
 18	the	O	-	-
-19	Egyptian	B-OTH	-	blvns
+19	Egyptian	O	-	-
 20	pharaoh	O	-	-
 21	Thutmose	B-PER	-	blvns
 22	III	I-PER	-	blvns
@@ -16023,14 +16023,14 @@
 22	loyalty	O	-	-
 23	to	O	-	-
 24	the	O	-	-
-25	Egyptian	B-OTH	-	blvns
+25	Egyptian	O	-	-
 26	pharaoh	O	-	-
 27	.	O	-	-
 
 # newdoc id = w01066
 # sent_id = w01066-0001
 # text = Thai birth certificates record the date, month and time of birth, followed by the day of the week, lunar date, and the applicable zodiac animal name.
-1	Thai	B-ORG	-	blvns
+1	Thai	O	-	-
 2	birth	O	-	-
 3	certificates	O	-	-
 4	record	O	-	-
@@ -16083,7 +16083,7 @@
 
 # sent_id = w01066-0003
 # text = Thai auspicious colours of the day are given in the table of weekdays, followed below it by a link to the Buddha images for each day of the week.
-1	Thai	B-OTH	-	blvns
+1	Thai	O	-	-
 2	auspicious	O	-	-
 3	colours	O	-	-
 4	of	O	-	-
@@ -16117,7 +16117,7 @@
 
 # sent_id = w01066-0004
 # text = Chinese New Year and other feasts observed by Thai Chinese vary with respect to both, as these are calculated according to the Chinese calendar.
-1	Chinese	B-OTH	-	blvns
+1	Chinese	O	-	-
 2	New	O	-	-
 3	Year	O	-	-
 4	and	O	-	-
@@ -16125,8 +16125,8 @@
 6	feasts	O	-	-
 7	observed	O	-	-
 8	by	O	-	-
-9	Thai	B-OTH	-	blvns
-10	Chinese	I-OTH	-	blvns
+9	Thai	O	-	-
+10	Chinese	O	-	-
 11	vary	O	-	-
 12	with	O	-	-
 13	respect	O	-	-
@@ -16140,7 +16140,7 @@
 21	according	O	-	-
 22	to	O	-	-
 23	the	O	-	-
-24	Chinese	B-OTH	-	blvns
+24	Chinese	O	-	-
 25	calendar	O	-	-
 26	.	O	-	-
 
@@ -16160,10 +16160,10 @@
 11	,	O	-	-
 12	building	O	-	-
 13	the	O	-	-
-14	Walls	O	-	-
-15	of	O	-	-
-16	the	O	-	-
-17	Ruler	O	-	-
+14	Walls	B-LOC	-	blvns
+15	of	I-LOC	-	blvns
+16	the	I-LOC	-	blvns
+17	Ruler	I-LOC	-	blvns
 18	in	O	-	-
 19	the	O	-	-
 20	East	B-LOC	-	blvns
@@ -16237,7 +16237,7 @@
 20	interviewed	O	-	-
 21	for	O	-	-
 22	a	O	-	-
-23	Japanese	B-OTH	-	blvns
+23	Japanese	O	-	-
 24	children	O	-	-
 25	's	O	-	-
 26	television	O	-	-
@@ -16305,8 +16305,8 @@
 16	the	O	-	-
 17	needs	O	-	-
 18	of	O	-	-
-19	the	O	-	-
-20	Netherlands	B-LOC	-	blvns
+19	the	B-LOC	-	blvns
+20	Netherlands	I-LOC	-	blvns
 21	.	O	-	-
 
 # sent_id = w01069-0003
@@ -16369,8 +16369,8 @@
 22	the	O	-	-
 23	rebels	O	-	-
 24	in	O	-	-
-25	the	O	-	-
-26	Netherlands	B-LOC	-	blvns
+25	the	B-LOC	-	blvns
+26	Netherlands	I-LOC	-	blvns
 27	.	O	-	-
 
 # newdoc id = w01070
@@ -16576,7 +16576,7 @@
 13	two	O	-	-
 14	by	O	-	-
 15	the	O	-	-
-16	Romans	B-ORG	-	blvns
+16	Romans	O	-	-
 17	for	O	-	-
 18	administrative	O	-	-
 19	purposes	O	-	-
@@ -16657,7 +16657,7 @@
 19	with	O	-	-
 20	Trix	B-PER	-	blvns
 21	at	O	-	-
-22	Southsea	O	-	-
+22	Southsea	B-LOC	-	blvns
 23	(	O	-	-
 24	to	O	-	-
 25	which	O	-	-
@@ -16963,7 +16963,7 @@
 # sent_id = w01076-0002
 # text = The Arab Revolt which began in 1916 turned the tide against the Ottomans on the Middle Eastern front, where they initially seemed to have the upper hand during the first two years of the war.
 1	The	O	-	-
-2	Arab	B-OTH	-	blvns
+2	Arab	O	-	-
 3	Revolt	O	-	-
 4	which	O	-	-
 5	began	O	-	-
@@ -16977,8 +16977,8 @@
 13	Ottomans	B-ORG	-	blvns
 14	on	O	-	-
 15	the	O	-	-
-16	Middle	B-LOC	-	blvns
-17	Eastern	I-LOC	-	blvns
+16	Middle	O	-	-
+17	Eastern	O	-	-
 18	front	O	-	-
 19	,	O	-	-
 20	where	O	-	-
@@ -17025,7 +17025,7 @@
 # newdoc id = w01079
 # sent_id = w01079-0001
 # text = Dominican priest Heinrich Kramer was assistant to the Archbishop of Salzburg.
-1	Dominican	B-OTH	-	blvns
+1	Dominican	O	-	-
 2	priest	O	-	-
 3	Heinrich	B-PER	-	blvns
 4	Kramer	I-PER	-	blvns
@@ -17043,7 +17043,7 @@
 1	In	O	-	-
 2	1538	O	-	-
 3	the	O	-	-
-4	Spanish	B-OTH	-	blvns
+4	Spanish	O	-	-
 5	Inquisition	O	-	-
 6	cautioned	O	-	-
 7	its	O	-	-
@@ -17100,12 +17100,12 @@
 10	many	O	-	-
 11	of	O	-	-
 12	these	O	-	-
-13	Spanish	B-OTH	-	blvns
+13	Spanish	O	-	-
 14	Jews	O	-	-
 15	left	O	-	-
 16	Spain	B-LOC	-	blvns
 17	for	O	-	-
-18	Portugal	O	-	-
+18	Portugal	B-LOC	-	blvns
 19	but	O	-	-
 20	eventually	O	-	-
 21	were	O	-	-
@@ -17119,7 +17119,7 @@
 # sent_id = w01080-0001
 # text = The Macedonian eastern border with Thrace was now secured at the river Nestus (Mesta).
 1	The	O	-	-
-2	Macedonian	B-LOC	-	blvns
+2	Macedonian	O	-	-
 3	eastern	O	-	-
 4	border	O	-	-
 5	with	O	-	-
@@ -17132,7 +17132,7 @@
 12	river	O	-	-
 13	Nestus	B-LOC	-	blvns
 14	(	O	-	-
-15	Mesta	B-LOC	-	blvns
+15	Mesta	O	-	-
 16	)	O	-	-
 17	.	O	-	-
 
@@ -17172,7 +17172,7 @@
 # sent_id = w01080-0004
 # text = The Macedonian army advanced as far as the pass of Thermopylae which divides Greece in two parts, but it did not attempt to take it because it was strongly guarded by a joint force of Athenians, Spartans, and Achaeans.
 1	The	O	-	-
-2	Macedonian	B-ORG	-	blvns
+2	Macedonian	O	-	-
 3	army	O	-	-
 4	advanced	O	-	-
 5	as	O	-	-
@@ -17207,12 +17207,12 @@
 34	joint	O	-	-
 35	force	O	-	-
 36	of	O	-	-
-37	Athenians	B-ORG	-	blvns
+37	Athenians	O	-	-
 38	,	O	-	-
-39	Spartans	B-ORG	-	blvns
+39	Spartans	O	-	-
 40	,	O	-	-
 41	and	O	-	-
-42	Achaeans	B-ORG	-	blvns
+42	Achaeans	O	-	-
 43	.	O	-	-
 
 # sent_id = w01080-0005
@@ -17225,11 +17225,11 @@
 6	of	O	-	-
 7	Macedon	B-LOC	-	blvns
 8	,	O	-	-
-9	Philip	B-LOC	-	blvns
+9	Philip	B-PER	-	blvns
 10	assembled	O	-	-
 11	a	O	-	-
 12	large	O	-	-
-13	Macedonian	B-ORG	-	blvns
+13	Macedonian	O	-	-
 14	army	O	-	-
 15	and	O	-	-
 16	marched	O	-	-
@@ -17262,13 +17262,13 @@
 2	the	O	-	-
 3	war	O	-	-
 4	,	O	-	-
-5	Pearl	O	-	-
-6	Harbor	O	-	-
+5	Pearl	B-LOC	-	blvns
+6	Harbor	I-LOC	-	blvns
 7	was	O	-	-
 8	frequently	O	-	-
 9	used	O	-	-
 10	in	O	-	-
-11	American	B-OTH	-	blvns
+11	American	O	-	-
 12	propaganda	O	-	-
 13	.	O	-	-
 
@@ -17280,7 +17280,7 @@
 3	vision	O	-	-
 4	of	O	-	-
 5	the	O	-	-
-6	Romanov	B-ORG	-	blvns
+6	Romanov	O	-	-
 7	monarchy	O	-	-
 8	blinded	O	-	-
 9	him	O	-	-
@@ -17717,7 +17717,7 @@
 8	brought	O	-	-
 9	about	O	-	-
 10	by	O	-	-
-11	Scotsman	B-OTH	-	blvns
+11	Scotsman	O	-	-
 12	James	B-PER	-	blvns
 13	Watt	I-PER	-	blvns
 14	.	O	-	-
@@ -17766,7 +17766,7 @@
 # newdoc id = w01094
 # sent_id = w01094-0001
 # text = Ford T was proclaimed as the most influential car of the 20th century in the international Car of the Century awards.
-1	Ford	B-OTH	-	blvns
+1	Ford	O	-	-
 2	T	O	-	-
 3	was	O	-	-
 4	proclaimed	O	-	-
@@ -17990,7 +17990,7 @@
 15	civilians	O	-	-
 16	,	O	-	-
 17	mostly	O	-	-
-18	Chinese	B-OTH	-	blvns
+18	Chinese	O	-	-
 19	(	O	-	-
 20	estimated	O	-	-
 21	at	O	-	-
@@ -18002,7 +18002,7 @@
 27	killed	O	-	-
 28	by	O	-	-
 29	the	O	-	-
-30	Japanese	B-ORG	-	blvns
+30	Japanese	O	-	-
 31	occupation	O	-	-
 32	forces	O	-	-
 33	.	O	-	-
@@ -18056,7 +18056,7 @@
 # newdoc id = w01097
 # sent_id = w01097-0001
 # text = British cavalry troopers also received excellent mounted swordsmanship training.
-1	British	B-ORG	-	blvns
+1	British	O	-	-
 2	cavalry	O	-	-
 3	troopers	O	-	-
 4	also	O	-	-
@@ -18081,7 +18081,7 @@
 10	assert	O	-	-
 11	that	O	-	-
 12	the	O	-	-
-13	British	B-ORG	-	blvns
+13	British	O	-	-
 14	heavy	O	-	-
 15	cavalry	O	-	-
 16	were	O	-	-
@@ -18110,14 +18110,14 @@
 7	autosomal	O	-	-
 8	data	O	-	-
 9	on	O	-	-
-10	Roma	B-OTH	-	blvns
+10	Roma	O	-	-
 11	the	O	-	-
 12	source	O	-	-
 13	of	O	-	-
-14	Southasian	B-LOC	-	blvns
+14	Southasian	O	-	-
 15	Ancestry	O	-	-
 16	in	O	-	-
-17	Roma	B-OTH	-	blvns
+17	Roma	O	-	-
 18	is	O	-	-
 19	North	O	-	-
 20	-	O	-	-
@@ -18244,7 +18244,7 @@
 18	were	O	-	-
 19	opened	O	-	-
 20	to	O	-	-
-21	British	B-OTH	-	blvns
+21	British	O	-	-
 22	trade	O	-	-
 23	and	O	-	-
 24	residence	O	-	-
@@ -18263,7 +18263,7 @@
 9	out	O	-	-
 10	;	O	-	-
 11	the	O	-	-
-12	Chinese	B-ORG	-	blvns
+12	Chinese	O	-	-
 13	were	O	-	-
 14	again	O	-	-
 15	defeated	O	-	-
@@ -18547,7 +18547,7 @@
 # sent_id = w01105-0003
 # text = Using Alvarez's dipole antenna to achieve a very high angular resolution, GCA allows ground-based radar operators watching special precision displays to guide a landing airplane to the runway by transmitting verbal commands to the pilot.
 1	Using	O	-	-
-2	Alvarez	O	-	-
+2	Alvarez	B-PER	-	blvns
 3	's	O	-	-
 4	dipole	O	-	-
 5	antenna	O	-	-
@@ -18813,7 +18813,7 @@
 17	minister	O	-	-
 18	to	O	-	-
 19	the	O	-	-
-20	British	B-ORG	-	blvns
+20	British	O	-	-
 21	Embassy	O	-	-
 22	.	O	-	-
 
@@ -19025,7 +19025,7 @@
 9	victory	O	-	-
 10	,	O	-	-
 11	leaving	O	-	-
-12	Indonesian	B-OTH	-	blvns
+12	Indonesian	O	-	-
 13	citizens	O	-	-
 14	confused	O	-	-
 15	.	O	-	-
@@ -19357,7 +19357,7 @@
 15	to	O	-	-
 16	being	O	-	-
 17	of	O	-	-
-18	European	B-OTH	-	blvns
+18	European	O	-	-
 19	heritage	O	-	-
 20	.	O	-	-
 
@@ -19731,7 +19731,7 @@
 3	2012	O	-	-
 4	,	O	-	-
 5	the	O	-	-
-6	Icelandic	B-OTH	-	blvns
+6	Icelandic	O	-	-
 7	band	O	-	-
 8	Sigur	B-ORG	-	blvns
 9	Rós	I-ORG	-	blvns
@@ -20058,7 +20058,7 @@
 5	assumes	O	-	-
 6	that	O	-	-
 7	the	O	-	-
-8	Maya	B-OTH	-	blvns
+8	Maya	O	-	-
 9	were	O	-	-
 10	ultimately	O	-	-
 11	“	O	-	-
@@ -20080,7 +20080,7 @@
 4	represented	O	-	-
 5	in	O	-	-
 6	prehistoric	O	-	-
-7	Mesoamerican	B-OTH	-	blvns
+7	Mesoamerican	O	-	-
 8	iconography	O	-	-
 9	or	O	-	-
 10	texts	O	-	-
@@ -20104,7 +20104,7 @@
 28	for	O	-	-
 29	the	O	-	-
 30	ancient	O	-	-
-31	Maya	B-OTH	-	blvns
+31	Maya	O	-	-
 32	.	O	-	-
 
 # newdoc id = w01133
@@ -20138,7 +20138,7 @@
 26	a	O	-	-
 27	number	O	-	-
 28	of	O	-	-
-29	Marvel	B-OTH	-	blvns
+29	Marvel	O	-	-
 30	titles	O	-	-
 31	.	O	-	-
 
@@ -20248,9 +20248,9 @@
 9	of	O	-	-
 10	the	O	-	-
 11	new	O	-	-
-12	Yves	B-OTH	-	blvns
-13	Saint	I-OTH	-	blvns
-14	Laurent	I-OTH	-	blvns
+12	Yves	O	-	-
+13	Saint	O	-	-
+14	Laurent	O	-	-
 15	fragrance	O	-	-
 16	,	O	-	-
 17	Opium	O	-	-
@@ -20263,7 +20263,7 @@
 3	in	O	-	-
 4	the	O	-	-
 5	2011	O	-	-
-6	British	B-OTH	-	blvns
+6	British	O	-	-
 7	comedy	O	-	-
 8	film	O	-	-
 9	Salmon	O	-	-
@@ -20302,8 +20302,8 @@
 12	Muppets	O	-	-
 13	,	O	-	-
 14	as	O	-	-
-15	Miss	B-PER	-	blvns
-16	Piggy	I-PER	-	blvns
+15	Miss	O	-	-
+16	Piggy	B-PER	-	blvns
 17	's	O	-	-
 18	receptionist	O	-	-
 19	.	O	-	-
@@ -20342,7 +20342,7 @@
 6	began	O	-	-
 7	filming	O	-	-
 8	an	O	-	-
-9	American	B-OTH	-	blvns
+9	American	O	-	-
 10	science	O	-	-
 11	-	O	-	-
 12	fiction	O	-	-
@@ -20440,7 +20440,7 @@
 18	Hitler	B-PER	-	blvns
 19	and	O	-	-
 20	other	O	-	-
-21	German	B-ORG	-	blvns
+21	German	O	-	-
 22	officials	O	-	-
 23	.	O	-	-
 
@@ -20452,7 +20452,7 @@
 4	Cabinet	O	-	-
 5	shortly	O	-	-
 6	after	O	-	-
-7	German	B-ORG	-	blvns
+7	German	O	-	-
 8	forces	O	-	-
 9	crossed	O	-	-
 10	the	O	-	-
@@ -20473,13 +20473,13 @@
 1	In	O	-	-
 2	May	O	-	-
 3	,	O	-	-
-4	Czech	B-ORG	-	blvns
+4	Czech	O	-	-
 5	border	O	-	-
 6	guards	O	-	-
 7	shot	O	-	-
 8	two	O	-	-
-9	Sudeten	B-OTH	-	blvns
-10	German	I-OTH	-	blvns
+9	Sudeten	O	-	-
+10	German	O	-	-
 11	farmers	O	-	-
 12	who	O	-	-
 13	were	O	-	-
@@ -20714,8 +20714,8 @@
 7	she	O	-	-
 8	appeared	O	-	-
 9	on	O	-	-
-10	CTV	B-ORG	-	blvns
-11	Montreal	I-ORG	-	blvns
+10	CTV	O	-	-
+11	Montreal	O	-	-
 12	as	O	-	-
 13	a	O	-	-
 14	guest	O	-	-
@@ -20808,7 +20808,7 @@
 # text = The knight Lyvet was released and his follower thrown into the Tower.
 1	The	O	-	-
 2	knight	O	-	-
-3	Lyvet	B-LOC	-	blvns
+3	Lyvet	B-PER	-	blvns
 4	was	O	-	-
 5	released	O	-	-
 6	and	O	-	-
@@ -20817,7 +20817,7 @@
 9	thrown	O	-	-
 10	into	O	-	-
 11	the	O	-	-
-12	Tower	O	-	-
+12	Tower	B-LOC	-	blvns
 13	.	O	-	-
 
 # newdoc id = w01143
@@ -20862,7 +20862,7 @@
 12	playboy	O	-	-
 13	,	O	-	-
 14	in	O	-	-
-15	Sabrina	B-PER	-	blvns
+15	Sabrina	O	-	-
 16	(	O	-	-
 17	1954	O	-	-
 18	)	O	-	-
@@ -20962,7 +20962,7 @@
 14	the	O	-	-
 15	first	O	-	-
 16	serving	O	-	-
-17	U.S.	B-ORG	-	blvns
+17	U.S.	B-LOC	-	blvns
 18	president	O	-	-
 19	to	O	-	-
 20	survive	O	-	-
@@ -21235,7 +21235,7 @@
 24	and	O	-	-
 25	Son	O	-	-
 26	of	O	-	-
-27	Rambow	B-PER	-	blvns
+27	Rambow	O	-	-
 28	.	O	-	-
 
 # newdoc id = w01150
@@ -21568,13 +21568,13 @@
 6	cloister	O	-	-
 7	from	O	-	-
 8	the	O	-	-
-9	abbey	O	-	-
-10	church	O	-	-
-11	of	O	-	-
-12	St.	O	-	-
-13	Peter	B-PER	-	blvns
-14	and	O	-	-
-15	Paul	B-PER	-	blvns
+9	abbey	B-LOC	-	blvns
+10	church	I-LOC	-	blvns
+11	of	I-LOC	-	blvns
+12	St.	I-LOC	-	blvns
+13	Peter	I-LOC	-	blvns
+14	and	I-LOC	-	blvns
+15	Paul	I-LOC	-	blvns
 16	.	O	-	-
 
 # sent_id = w02004-0002
@@ -21638,7 +21638,7 @@
 17	,	O	-	-
 18	planetarium	O	-	-
 19	,	O	-	-
-20	Japanese	B-OTH	-	blvns
+20	Japanese	O	-	-
 21	garden	O	-	-
 22	and	O	-	-
 23	an	O	-	-
@@ -21658,8 +21658,8 @@
 9	and	O	-	-
 10	relaxation	O	-	-
 11	for	O	-	-
-12	San	B-OTH	-	blvns
-13	Franciscans	I-OTH	-	blvns
+12	San	O	-	-
+13	Franciscans	O	-	-
 14	.	O	-	-
 
 # sent_id = w02005-0003
@@ -21694,11 +21694,11 @@
 3	a	O	-	-
 4	monument	O	-	-
 5	to	O	-	-
-6	Martin	O	-	-
-7	Luther	O	-	-
-8	King	O	-	-
-9	,	O	-	-
-10	Jr.	O	-	-
+6	Martin	B-PER	-	blvns
+7	Luther	I-PER	-	blvns
+8	King	I-PER	-	blvns
+9	,	I-PER	-	blvns
+10	Jr.	I-PER	-	blvns
 
 # newdoc id = w02006
 # sent_id = w02006-0001
@@ -21765,7 +21765,7 @@
 3	2012	O	-	-
 4	,	O	-	-
 5	the	O	-	-
-6	Turkish	B-ORG	-	blvns
+6	Turkish	O	-	-
 7	Minister	O	-	-
 8	President	O	-	-
 9	Erdogan	B-PER	-	blvns
@@ -21780,8 +21780,8 @@
 18	by	O	-	-
 19	building	O	-	-
 20	the	O	-	-
-21	Istanbul	O	-	-
-22	Canal	O	-	-
+21	Istanbul	B-LOC	-	blvns
+22	Canal	I-LOC	-	blvns
 23	parallel	O	-	-
 24	to	O	-	-
 25	it	O	-	-
@@ -21790,7 +21790,7 @@
 # sent_id = w02007-0003
 # text = The Ottomans wanted to prevent grain from being further transported because they had a great need for it.
 1	The	O	-	-
-2	Ottomans	B-OTH	-	blvns
+2	Ottomans	O	-	-
 3	wanted	O	-	-
 4	to	O	-	-
 5	prevent	O	-	-
@@ -22128,7 +22128,7 @@
 # text = After the Russian Revolution in 1917, some countries, such as Finland, Poland and the Baltic States, won their independence.
 1	After	O	-	-
 2	the	O	-	-
-3	Russian	B-OTH	-	blvns
+3	Russian	O	-	-
 4	Revolution	O	-	-
 5	in	O	-	-
 6	1917	O	-	-
@@ -22247,7 +22247,7 @@
 12	in	O	-	-
 13	1632	O	-	-
 14	by	O	-	-
-15	Swedish	B-ORG	-	blvns
+15	Swedish	O	-	-
 16	troops	O	-	-
 17	.	O	-	-
 
@@ -22457,7 +22457,7 @@
 11	distinction	O	-	-
 12	of	O	-	-
 13	the	O	-	-
-14	American	B-OTH	-	blvns
+14	American	O	-	-
 15	Friendship	O	-	-
 16	Medal	O	-	-
 17	for	O	-	-
@@ -22604,7 +22604,7 @@
 6	1914	O	-	-
 7	,	O	-	-
 8	the	O	-	-
-9	British	B-OTH	-	blvns
+9	British	O	-	-
 10	ship	O	-	-
 11	Endurance	B-LOC	-	blvns
 12	,	O	-	-
@@ -22637,7 +22637,7 @@
 6	founding	O	-	-
 7	act	O	-	-
 8	of	O	-	-
-9	Roman	B-ORG	-	blvns
+9	Roman	O	-	-
 10	law	O	-	-
 11	,	O	-	-
 12	the	O	-	-
@@ -22696,7 +22696,7 @@
 18	fall	O	-	-
 19	of	O	-	-
 20	the	O	-	-
-21	Mycenaean	B-OTH	-	blvns
+21	Mycenaean	O	-	-
 22	civilization	O	-	-
 23	.	O	-	-
 
@@ -22707,16 +22707,16 @@
 3	been	O	-	-
 4	lost	O	-	-
 5	and	O	-	-
-6	Mycenaean	B-OTH	-	blvns
+6	Mycenaean	O	-	-
 7	script	O	-	-
 8	forgotten	O	-	-
 9	,	O	-	-
 10	but	O	-	-
 11	the	O	-	-
-12	Greeks	B-OTH	-	blvns
+12	Greeks	O	-	-
 13	adopted	O	-	-
 14	the	O	-	-
-15	Phoenician	B-OTH	-	blvns
+15	Phoenician	O	-	-
 16	alphabet	O	-	-
 17	,	O	-	-
 18	modifying	O	-	-
@@ -22724,7 +22724,7 @@
 20	to	O	-	-
 21	create	O	-	-
 22	the	O	-	-
-23	Greek	B-OTH	-	blvns
+23	Greek	O	-	-
 24	alphabet	O	-	-
 25	.	O	-	-
 
@@ -22738,7 +22738,7 @@
 6	,	O	-	-
 7	the	O	-	-
 8	first	O	-	-
-9	Greek	B-OTH	-	blvns
+9	Greek	O	-	-
 10	texts	O	-	-
 11	began	O	-	-
 12	to	O	-	-
@@ -22764,7 +22764,7 @@
 15	largely	O	-	-
 16	dictated	O	-	-
 17	by	O	-	-
-18	Greek	B-LOC	-	blvns
+18	Greek	O	-	-
 19	geography	O	-	-
 20	:	O	-	-
 21	every	O	-	-
@@ -22975,7 +22975,7 @@
 11	worldwide	O	-	-
 12	,	O	-	-
 13	the	O	-	-
-14	German	B-OTH	-	blvns
+14	German	O	-	-
 15	company	O	-	-
 16	was	O	-	-
 17	in	O	-	-
@@ -23047,7 +23047,7 @@
 12	cinema	O	-	-
 13	,	O	-	-
 14	the	O	-	-
-15	Belgian	B-OTH	-	blvns
+15	Belgian	O	-	-
 16	artist	O	-	-
 17	wrote	O	-	-
 18	a	O	-	-
@@ -23388,11 +23388,11 @@
 # text = The second Apulian and Calabrian Royal Region was then established, also including Samnium, parts of Molise and the oriental Basilicata.
 1	The	O	-	-
 2	second	O	-	-
-3	Apulian	B-ORG	-	blvns
-4	and	I-ORG	-	blvns
-5	Calabrian	I-ORG	-	blvns
-6	Royal	I-ORG	-	blvns
-7	Region	I-ORG	-	blvns
+3	Apulian	B-LOC	-	blvns
+4	and	I-LOC	-	blvns
+5	Calabrian	I-LOC	-	blvns
+6	Royal	I-LOC	-	blvns
+7	Region	I-LOC	-	blvns
 8	was	O	-	-
 9	then	O	-	-
 10	established	O	-	-
@@ -23432,7 +23432,7 @@
 18	part	O	-	-
 19	of	O	-	-
 20	the	O	-	-
-21	Italian	B-LOC	-	blvns
+21	Italian	O	-	-
 22	peninsula	O	-	-
 23	.	O	-	-
 
@@ -23502,13 +23502,13 @@
 15	upon	O	-	-
 16	a	O	-	-
 17	young	O	-	-
-18	Corsican	B-ORG	-	blvns
+18	Corsican	O	-	-
 19	artillery	O	-	-
 20	officer	O	-	-
 21	,	O	-	-
 22	following	O	-	-
 23	the	O	-	-
-24	French	B-OTH	-	blvns
+24	French	O	-	-
 25	Revolution	O	-	-
 26	:	O	-	-
 27	Napoleon	B-PER	-	blvns
@@ -23526,7 +23526,7 @@
 7	conflict	O	-	-
 8	,	O	-	-
 9	the	O	-	-
-10	French	B-ORG	-	blvns
+10	French	O	-	-
 11	victory	O	-	-
 12	at	O	-	-
 13	the	O	-	-
@@ -23535,7 +23535,7 @@
 16	Marengo	B-LOC	-	blvns
 17	forced	O	-	-
 18	the	O	-	-
-19	Austrians	B-ORG	-	blvns
+19	Austrians	O	-	-
 20	to	O	-	-
 21	give	O	-	-
 22	Italy	B-LOC	-	blvns
@@ -23606,7 +23606,7 @@
 24	:	O	-	-
 25	the	O	-	-
 26	new	O	-	-
-27	British	B-ORG	-	blvns
+27	British	O	-	-
 28	Prime	O	-	-
 29	Minister	O	-	-
 30	Lord	O	-	-
@@ -23896,8 +23896,8 @@
 # sent_id = w05002-0001
 # text = Before the Andes were formed, the western margin of South America had already been the site of several orogenies.
 1	Before	O	-	-
-2	the	O	-	-
-3	Andes	O	-	-
+2	the	B-LOC	-	blvns
+3	Andes	I-LOC	-	blvns
 4	were	O	-	-
 5	formed	O	-	-
 6	,	O	-	-
@@ -23921,7 +23921,7 @@
 # text = The central Andes belong to the so-called 'Andes de tipo andino' which were formed by the subduction of the oceanic crust.
 1	The	O	-	-
 2	central	O	-	-
-3	Andes	O	-	-
+3	Andes	B-LOC	-	blvns
 4	belong	O	-	-
 5	to	O	-	-
 6	the	O	-	-
@@ -24084,7 +24084,7 @@
 6	October	O	-	-
 7	1777	O	-	-
 8	when	O	-	-
-9	British	B-ORG	-	blvns
+9	British	O	-	-
 10	forces	O	-	-
 11	under	O	-	-
 12	the	O	-	-
@@ -24197,13 +24197,13 @@
 # newdoc id = w05006
 # sent_id = w05006-0001
 # text = Golden Age Spanish or Early Modern Spanish is the variant of the language that constitutes the transition from Medieval Spanish to Modern Spanish.
-1	Golden	B-OTH	-	blvns
-2	Age	I-OTH	-	blvns
-3	Spanish	I-OTH	-	blvns
+1	Golden	O	-	-
+2	Age	O	-	-
+3	Spanish	O	-	-
 4	or	O	-	-
-5	Early	B-OTH	-	blvns
-6	Modern	I-OTH	-	blvns
-7	Spanish	I-OTH	-	blvns
+5	Early	O	-	-
+6	Modern	O	-	-
+7	Spanish	O	-	-
 8	is	O	-	-
 9	the	O	-	-
 10	variant	O	-	-
@@ -24215,11 +24215,11 @@
 16	the	O	-	-
 17	transition	O	-	-
 18	from	O	-	-
-19	Medieval	B-OTH	-	blvns
-20	Spanish	I-OTH	-	blvns
+19	Medieval	O	-	-
+20	Spanish	O	-	-
 21	to	O	-	-
-22	Modern	B-OTH	-	blvns
-23	Spanish	I-OTH	-	blvns
+22	Modern	O	-	-
+23	Spanish	O	-	-
 24	.	O	-	-
 
 # sent_id = w05006-0002
@@ -24237,7 +24237,7 @@
 11	the	O	-	-
 12	history	O	-	-
 13	of	O	-	-
-14	Spanish	B-OTH	-	blvns
+14	Spanish	O	-	-
 15	speakers	O	-	-
 16	,	O	-	-
 17	their	O	-	-
@@ -24259,7 +24259,7 @@
 2	,	O	-	-
 3	if	O	-	-
 4	the	O	-	-
-5	English	B-ORG	-	blvns
+5	English	O	-	-
 6	law	O	-	-
 7	had	O	-	-
 8	been	O	-	-
@@ -24336,10 +24336,10 @@
 5	federalization	O	-	-
 6	of	O	-	-
 7	the	O	-	-
-8	City	B-ORG	-	blvns
-9	of	I-ORG	-	blvns
-10	Buenos	I-ORG	-	blvns
-11	Aires	I-ORG	-	blvns
+8	City	B-LOC	-	blvns
+9	of	I-LOC	-	blvns
+10	Buenos	I-LOC	-	blvns
+11	Aires	I-LOC	-	blvns
 12	,	O	-	-
 13	the	O	-	-
 14	extension	O	-	-
