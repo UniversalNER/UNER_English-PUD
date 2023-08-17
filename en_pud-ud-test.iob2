@@ -2945,7 +2945,7 @@
 5	,	O	-	-
 6	"	O	-	-
 7	reported	O	-	-
-8	SaskTel	O	-	-
+8	SaskTel	B-ORG	-	blvns
 9	unlimited	O	-	-
 10	data	O	-	-
 11	customer	O	-	-
