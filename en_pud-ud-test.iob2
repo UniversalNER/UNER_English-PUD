@@ -1214,7 +1214,7 @@
 16	to	O	-	-
 17	meet	O	-	-
 18	the	O	-	-
-19	Paris	B-LOC	-	blvns
+19	Paris	O	-	-
 20	targets	O	-	-
 21	.	O	-	-
 
@@ -1230,7 +1230,7 @@
 8	direction	O	-	-
 9	:	O	-	-
 10	the	O	-	-
-11	Paris	B-LOC	-	blvns
+11	Paris	O	-	-
 12	Agreement	O	-	-
 13	will	O	-	-
 14	slow	O	-	-
@@ -1285,7 +1285,7 @@
 5	they	O	-	-
 6	got	O	-	-
 7	the	O	-	-
-8	Paris	B-LOC	-	blvns
+8	Paris	O	-	-
 9	Agreement	O	-	-
 10	but	O	-	-
 11	their	O	-	-
