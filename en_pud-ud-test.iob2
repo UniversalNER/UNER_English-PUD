@@ -7334,9 +7334,9 @@
 1	London	B-LOC	-	blvns
 2	’s	O	-	-
 3	landmark	O	-	-
-4	South	B-ORG	-	blvns
-5	Bank	I-ORG	-	blvns
-6	Tower	I-ORG	-	blvns
+4	South	B-LOC	-	blvns
+5	Bank	I-LOC	-	blvns
+6	Tower	I-LOC	-	blvns
 7	commissioned	O	-	-
 8	interior	O	-	-
 9	designer	O	-	-
