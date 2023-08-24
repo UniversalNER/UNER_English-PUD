@@ -2425,7 +2425,7 @@
 15	provision	O	-	-
 16	in	O	-	-
 17	the	O	-	-
-18	Paris	B-LOC	-	blvns
+18	Paris	O	-	-
 19	agreement	O	-	-
 20	to	O	-	-
 21	pull	O	-	-
@@ -7334,9 +7334,9 @@
 1	London	B-LOC	-	blvns
 2	’s	O	-	-
 3	landmark	O	-	-
-4	South	B-LOC	-	blvns
-5	Bank	I-LOC	-	blvns
-6	Tower	I-LOC	-	blvns
+4	South	B-ORG	-	blvns
+5	Bank	I-ORG	-	blvns
+6	Tower	I-ORG	-	blvns
 7	commissioned	O	-	-
 8	interior	O	-	-
 9	designer	O	-	-
@@ -12035,8 +12035,8 @@
 15	of	O	-	-
 16	Baja	B-LOC	-	blvns
 17	California	I-LOC	-	blvns
-18	,	I-LOC	-	blvns
-19	Mexico	I-LOC	-	blvns
+18	,	O	-	-
+19	Mexico	B-LOC	-	blvns
 20	.	O	-	-
 
 # newdoc id = w01004
@@ -12669,7 +12669,7 @@
 15	portion	O	-	-
 16	as	O	-	-
 17	the	O	-	-
-18	Transcaucasus	O	-	-
+18	Transcaucasus	B-LOC	-	blvns
 19	.	O	-	-
 
 # newdoc id = w01016
@@ -14517,8 +14517,8 @@
 3	additional	O	-	-
 4	controls	O	-	-
 5	of	O	-	-
-6	the	B-LOC	-	blvns
-7	Nile	I-LOC	-	blvns
+6	the	O	-	-
+7	Nile	B-LOC	-	blvns
 8	fostered	O	-	-
 9	development	O	-	-
 10	within	O	-	-
@@ -18219,7 +18219,7 @@
 13	the	O	-	-
 14	Treaty	O	-	-
 15	of	O	-	-
-16	Nanking	B-LOC	-	blvns
+16	Nanking	O	-	-
 17	.	O	-	-
 
 # sent_id = w01100-0003
@@ -18277,13 +18277,13 @@
 23	1858	O	-	-
 24	Treaty	O	-	-
 25	of	O	-	-
-26	Tientsin	B-LOC	-	blvns
+26	Tientsin	O	-	-
 27	and	O	-	-
 28	the	O	-	-
 29	1860	O	-	-
 30	Convention	O	-	-
 31	of	O	-	-
-32	Peking	B-LOC	-	blvns
+32	Peking	O	-	-
 33	.	O	-	-
 
 # sent_id = w01100-0005
@@ -20573,8 +20573,8 @@
 9	to	O	-	-
 10	Irène	B-PER	-	blvns
 11	Joliot	I-PER	-	blvns
-12	-	I-PER	-	blvns
-13	Curie	I-PER	-	blvns
+12	-	O	-	-
+13	Curie	B-PER	-	blvns
 14	suggesting	O	-	-
 15	that	O	-	-
 16	Rona	B-PER	-	blvns
@@ -20611,8 +20611,8 @@
 13	expenses	O	-	-
 14	,	O	-	-
 15	Joliot	B-PER	-	blvns
-16	-	I-PER	-	blvns
-17	Curie	I-PER	-	blvns
+16	-	O	-	-
+17	Curie	B-PER	-	blvns
 18	allowed	O	-	-
 19	her	O	-	-
 20	to	O	-	-
@@ -21262,7 +21262,7 @@
 3	beginning	O	-	-
 4	of	O	-	-
 5	the	O	-	-
-6	London	B-LOC	-	blvns
+6	London	O	-	-
 7	conference	O	-	-
 8	in	O	-	-
 9	December	O	-	-
@@ -21342,7 +21342,7 @@
 1	The	O	-	-
 2	Treaty	O	-	-
 3	of	O	-	-
-4	London	B-LOC	-	blvns
+4	London	O	-	-
 5	,	O	-	-
 6	signed	O	-	-
 7	on	O	-	-
@@ -24291,8 +24291,8 @@
 34	their	O	-	-
 35	aunt	O	-	-
 36	Isabella	B-PER	-	blvns
-37	of	O	-	-
-38	France	B-LOC	-	blvns
+37	of	I-PER	-	blvns
+38	France	I-PER	-	blvns
 39	.	O	-	-
 
 # sent_id = w05007-0002
