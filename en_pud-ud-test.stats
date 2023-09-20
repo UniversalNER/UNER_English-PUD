@@ -2,7 +2,7 @@
   "dataset_id": "en_pud-ud-test",
   "num_documents": 397,
   "num_annotated_documents": 397,
-  "num_annotations": 1789,
+  "num_annotations": 1790,
   "num_annotators": 3,
   "annotator_ids": [
     "blvns",
@@ -13,8 +13,8 @@
   "num_sentences": 1000,
   "num_tokens": 21176,
   "label_distribution": {
-    "LOC": 425,
-    "ORG": 228,
+    "LOC": 426,
+    "ORG": 235,
     "PER": 415
   },
   "pairwise_f1": {

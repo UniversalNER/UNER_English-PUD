@@ -4256,7 +4256,7 @@
 # text = The Liberal Democrats, who represented the affluent suburb until 2010, are hoping to snatch it back with their candidate Sarah Olney.
 1	The	O	-	-
 2	Liberal	O	-	-
-3	Democrats	O	-	-
+3	Democrats	B-ORG	-	blvns
 4	,	O	-	-
 5	who	O	-	-
 6	represented	O	-	-
@@ -4973,7 +4973,7 @@
 5	could	O	-	-
 6	open	O	-	-
 7	four	O	-	-
-8	Tesco	O	-	-
+8	Tesco	B-ORG	-	blvns
 9	accounts	O	-	-
 10	and	O	-	-
 11	earn	O	-	-
@@ -4991,9 +4991,9 @@
 # text = Meanwhile, Bank of Scotland customers earn 3% on balances of £3,000-£5,000 when they add the free Vantage option to their account.
 1	Meanwhile	O	-	-
 2	,	O	-	-
-3	Bank	O	-	-
-4	of	O	-	-
-5	Scotland	O	-	-
+3	Bank	B-ORG	-	blvns
+4	of	I-ORG	-	blvns
+5	Scotland	I-ORG	-	blvns
 6	customers	O	-	-
 7	earn	O	-	-
 8	3	O	-	-
@@ -5047,7 +5047,7 @@
 5	also	O	-	-
 6	applies	O	-	-
 7	to	O	-	-
-8	Nectar	O	-	-
+8	Nectar	B-ORG	-	blvns
 9	cardholders	O	-	-
 10	looking	O	-	-
 11	to	O	-	-
@@ -7777,9 +7777,9 @@
 # sent_id = n01133-0002
 # text = A Harley-Davidson spokeswoman said timelines that have been floated in the media -- 2017 or 2020 -- aren't accurate.
 1	A	O	-	-
-2	Harley	O	-	-
-3	-	O	-	-
-4	Davidson	O	-	-
+2	Harley	B-ORG	-	blvns
+3	-	I-ORG	-	blvns
+4	Davidson	I-ORG	-	blvns
 5	spokeswoman	O	-	-
 6	said	O	-	-
 7	timelines	O	-	-
@@ -8801,7 +8801,7 @@
 5	old	O	-	-
 6	age	O	-	-
 7	in	O	-	-
-8	India	O	-	-
+8	India	B-LOC	-	blvns
 9	,	O	-	-
 10	it	O	-	-
 11	is	O	-	-
@@ -10573,7 +10573,7 @@
 # sent_id = n03008-0001
 # text = "ETA is on its way out," the French contingent revealed.
 1	"	O	-	-
-2	ETA	B-ORG	-	blvns
+2	ETA	O	-	-
 3	is	O	-	-
 4	on	O	-	-
 5	its	O	-	-
@@ -10646,8 +10646,8 @@
 # text = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
 1	According	O	-	-
 2	to	O	-	-
-3	Le	B-PER	-	blvns
-4	Figaro	I-PER	-	blvns
+3	Le	B-ORG	-	blvns
+4	Figaro	I-ORG	-	blvns
 5	,	O	-	-
 6	this	O	-	-
 7	government	O	-	-
@@ -12463,8 +12463,8 @@
 30	and	O	-	-
 31	parts	O	-	-
 32	of	O	-	-
-33	Lower	O	-	-
-34	Austria	B-LOC	-	blvns
+33	Lower	B-LOC	-	blvns
+34	Austria	I-LOC	-	blvns
 35	.	O	-	-
 
 # sent_id = w01010-0003
@@ -13374,8 +13374,8 @@
 4	goods	O	-	-
 5	transported	O	-	-
 6	on	O	-	-
-7	the	B-LOC	-	blvns
-8	Danube	I-LOC	-	blvns
+7	the	O	-	-
+8	Danube	B-LOC	-	blvns
 9	increased	O	-	-
 10	to	O	-	-
 11	about	O	-	-
@@ -13415,7 +13415,7 @@
 25	of	O	-	-
 26	the	O	-	-
 27	Chilia	B-LOC	-	blvns
-28	arm	O	-	-
+28	arm	I-LOC	-	blvns
 29	,	O	-	-
 30	is	O	-	-
 31	situated	O	-	-
@@ -13507,8 +13507,8 @@
 11	flowed	O	-	-
 12	into	O	-	-
 13	the	O	-	-
-14	Mississippi	O	-	-
-15	River	O	-	-
+14	Mississippi	B-LOC	-	blvns
+15	River	I-LOC	-	blvns
 16	.	O	-	-
 
 # sent_id = w01028-0002
@@ -16000,8 +16000,8 @@
 # sent_id = w01065-0005
 # text = The Tell Amarna letters, dating from the 14th century BCE, include ten letters from the kings of Gezer swearing loyalty to the Egyptian pharaoh.
 1	The	O	-	-
-2	Tell	B-LOC	-	blvns
-3	Amarna	I-LOC	-	blvns
+2	Tell	O	-	-
+3	Amarna	O	-	-
 4	letters	O	-	-
 5	,	O	-	-
 6	dating	O	-	-
@@ -17132,7 +17132,7 @@
 12	river	O	-	-
 13	Nestus	B-LOC	-	blvns
 14	(	O	-	-
-15	Mesta	O	-	-
+15	Mesta	B-LOC	-	blvns
 16	)	O	-	-
 17	.	O	-	-
 
@@ -18813,8 +18813,8 @@
 17	minister	O	-	-
 18	to	O	-	-
 19	the	O	-	-
-20	British	O	-	-
-21	Embassy	O	-	-
+20	British	B-ORG	-	blvns
+21	Embassy	I-ORG	-	blvns
 22	.	O	-	-
 
 # newdoc id = w01109
@@ -19454,7 +19454,7 @@
 30	already	O	-	-
 31	in	O	-	-
 32	the	O	-	-
-33	US	O	-	-
+33	US	B-LOC	-	blvns
 34	.	O	-	-
 
 # sent_id = w01122-0002
@@ -20009,7 +20009,7 @@
 14	MGB	B-ORG	-	blvns
 15	to	O	-	-
 16	counter	O	-	-
-17	Beria	O	-	-
+17	Beria	B-PER	-	blvns
 18	's	O	-	-
 19	dominance	O	-	-
 20	of	O	-	-
@@ -21790,7 +21790,7 @@
 # sent_id = w02007-0003
 # text = The Ottomans wanted to prevent grain from being further transported because they had a great need for it.
 1	The	O	-	-
-2	Ottomans	O	-	-
+2	Ottomans	B-ORG	-	blvns
 3	wanted	O	-	-
 4	to	O	-	-
 5	prevent	O	-	-
@@ -22598,7 +22598,7 @@
 # text = In the Endurance expedition in 1914, the British ship Endurance, captained by Sir Ernest Shackleton, set sail with twenty eight men to cross the Antarctic.
 1	In	O	-	-
 2	the	O	-	-
-3	Endurance	B-LOC	-	blvns
+3	Endurance	O	-	-
 4	expedition	O	-	-
 5	in	O	-	-
 6	1914	O	-	-
@@ -22606,7 +22606,7 @@
 8	the	O	-	-
 9	British	O	-	-
 10	ship	O	-	-
-11	Endurance	B-LOC	-	blvns
+11	Endurance	O	-	-
 12	,	O	-	-
 13	captained	O	-	-
 14	by	O	-	-
@@ -23080,7 +23080,7 @@
 12	,	O	-	-
 13	accompanied	O	-	-
 14	by	O	-	-
-15	Rosane	B-LOC	-	blvns
+15	Rosane	B-PER	-	blvns
 16	,	O	-	-
 17	an	O	-	-
 18	18	O	-	-
@@ -23747,7 +23747,7 @@
 7	by	O	-	-
 8	Morricone	B-PER	-	blvns
 9	as	O	-	-
-10	Metti	B-PER	-	blvns
+10	Metti	O	-	-
 11	,	O	-	-
 12	one	O	-	-
 13	night	O	-	-
@@ -24190,8 +24190,8 @@
 14	close	O	-	-
 15	to	O	-	-
 16	the	O	-	-
-17	Hudson	O	-	-
-18	River	O	-	-
+17	Hudson	B-LOC	-	blvns
+18	River	I-LOC	-	blvns
 19	.	O	-	-
 
 # newdoc id = w05006
