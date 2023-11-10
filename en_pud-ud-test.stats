@@ -2,10 +2,11 @@
   "dataset_id": "en_pud-ud-test",
   "num_documents": 397,
   "num_annotated_documents": 397,
-  "num_annotations": 1790,
-  "num_annotators": 3,
+  "num_annotations": 1793,
+  "num_annotators": 4,
   "annotator_ids": [
     "blvns",
+    "krantz",
     "mishra",
     "stephen"
   ],
@@ -13,7 +14,7 @@
   "num_sentences": 1000,
   "num_tokens": 21176,
   "label_distribution": {
-    "LOC": 426,
+    "LOC": 425,
     "ORG": 235,
     "PER": 415
   },
@@ -40,8 +41,8 @@
       "num_common_annotated_docs": 25,
       "LOC": {
         "precision": 1.0,
-        "recall": 0.9444444444444444,
-        "f1": 0.9714285714285714
+        "recall": 1.0,
+        "f1": 1.0
       },
       "ORG": {
         "precision": 0.9565217391304348,
@@ -75,8 +76,8 @@
     "average": {
       "LOC": {
         "precision": 0.7333333333333334,
-        "recall": 0.7148148148148149,
-        "f1": 0.6793650793650793
+        "recall": 0.7333333333333334,
+        "f1": 0.6888888888888888
       },
       "ORG": {
         "precision": 0.7855072463768117,
