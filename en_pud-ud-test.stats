@@ -14,9 +14,9 @@
   "num_sentences": 1000,
   "num_tokens": 21176,
   "label_distribution": {
-    "LOC": 425,
+    "LOC": 426,
     "ORG": 235,
-    "PER": 415
+    "PER": 414
   },
   "pairwise_f1": {
     "ref:blvns, pred:mishra": {
