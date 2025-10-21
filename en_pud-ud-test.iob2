@@ -20431,7 +20431,7 @@
 9	Council	O	-	-
 10	,	O	-	-
 11	visited	O	-	-
-12	Germany	B-PER	-	blvns
+12	Germany	B-LOC	-	blvns
 13	privately	O	-	-
 14	in	O	-	-
 15	November	O	-	-
